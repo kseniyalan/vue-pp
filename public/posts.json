@@ -1,0 +1,69 @@
+{ "posts": [
+  {
+    "id": 0,
+    "title": "My recipe 1",
+    "description_short": "The best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "type": 1,
+    "img_top": "https://kseniyalan.github.io/vue-blog/pizza/pizza-876.jpg",
+    "img_top_2x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-1920.jpg",
+    "img_top_3x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-3840.jpg",
+    "img": "https://kseniyalan.github.io/vue-blog/pizza/pizza-388.jpg",
+    "img_2x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-876.jpg",
+    "img_3x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-1366.jpg",
+    "img_4x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-1440.jpg"
+
+  },
+  {
+    "id": 1,
+    "title": "My recipe 2",
+    "description_short": "The second! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "type": 2,
+    "img_top": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-876.jpg",
+    "img_top_2x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1920.jpg",
+    "img_top_3x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-3840.jpg",
+    "img": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-388.jpg",
+    "img_2x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-876.jpg",
+    "img_3x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1366.jpg",
+    "img_4x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1440.jpg"
+  },
+  {
+    "id": 2,
+    "title": "My recipe 3",
+    "description_short": "The third! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "type": 1,
+    "img_top": "https://kseniyalan.github.io/vue-blog/pizza/pizza-876.jpg",
+    "img_top_2x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-1920.jpg",
+    "img_top_3x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-3840.jpg",
+    "img": "https://kseniyalan.github.io/vue-blog/pizza/pizza-388.jpg",
+    "img_2x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-876.jpg",
+    "img_3x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-1366.jpg",
+    "img_4x": "https://kseniyalan.github.io/vue-blog/pizza/pizza-1440.jpg"
+  },
+  {
+    "id": 3,
+    "title": "My recipe 4",
+    "description_short": "The fourth! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "type": 2,
+    "img_top": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-876.jpg",
+    "img_top_2x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1920.jpg",
+    "img_top_3x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-3840.jpg",
+    "img": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-388.jpg",
+    "img_2x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-876.jpg",
+    "img_3x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1366.jpg",
+    "img_4x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1440.jpg"
+  },
+  {
+    "id": 4,
+    "title": "My recipe 5",
+    "description_short": "The fifth! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "type": null,
+    "img_top": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-876.jpg",
+    "img_top_2x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1920.jpg",
+    "img_top_3x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-3840.jpg",
+    "img": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-388.jpg",
+    "img_2x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-876.jpg",
+    "img_3x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1366.jpg",
+    "img_4x": "https://kseniyalan.github.io/vue-blog/dessert/pancakes-1440.jpg"
+  }
+]
+}
