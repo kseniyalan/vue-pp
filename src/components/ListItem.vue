@@ -1,14 +1,9 @@
 <template>
-  <v-col
-    cols="12"
-    sm="6"
-    md="4"
-    lg="4"
-    xl="3"
+  <div
     class="list-item"
     @click="onClickPost(postItem.id)"
   >
-    <v-card class="posts-list-item">
+    <div class="posts-list-item">
       <v-img
         height="250"
         class="mb-6"
@@ -16,23 +11,23 @@
         :srcset="`${postItem.img_2x} 2x, ${postItem.img_3x} 3x, ${postItem.img_4x} 4x`"
       ></v-img>
       <div class="text-caption text-uppercase">{{ postItem.typeText }}</div>
-      <v-card-title class="d-flex justify-center">
+      <div class="d-flex justify-center">
         <h4 class="text-h5 text-md-h4 text-capitalize">{{ postItem.title }}</h4> 
-      </v-card-title>
+      </div>
 
-      <v-row class="d-flex justify-center">
-        <v-col cols="12" sm="4" md="4" lg="4" xl="4">
-          <v-divider />
-        </v-col>
-      </v-row>
+      <div class="d-flex justify-center">
+        <div>
+          <div class="item-line" />
+        </div>
+      </div>
       
-      <v-card-text class="text-body-2 text-xl-body-1">
+      <div class="text-body-2 text-xl-body-1">
         <p class="mb-3">{{ postItem.description_short }}</p>
         <p class="font-weight-bold">Read more</p>
-      </v-card-text>
+      </div>
     
-    </v-card>
-  </v-col>
+    </div>
+  </div>
 </template>
 
 <script>

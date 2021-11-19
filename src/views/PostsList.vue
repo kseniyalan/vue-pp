@@ -1,38 +1,27 @@
 <template>
   <div>
-    <!-- Top posts block -->
-    <v-container>
-      <v-row v-if="loading" class="d-flex justify-center mb-6">
-        <v-col md="4">
-          <v-progress-circular
-            indeterminate
-            color="amber darken-3"
-          />
-        </v-col>
-      </v-row>
-    </v-container>
-    <v-container v-if="ready" class="top-container">
-      <v-row v-if="screenWidth > 1599" class="d-flex mb-16">
+    <div v-if="ready" class="top-container">
+      <div v-if="screenWidth > 1599" class="d-flex mb-16">
         <TopItem
           v-for="postItem in topPosts"
           :key="postItem.id"
           :postItem="postItem"
           :onClickPost="clickOnPost"
         />
-      </v-row>
-    </v-container>
+      </div>
+    </div>
 
     <!-- Posts list -->
-    <v-container>
-      <v-row v-if="ready" class="posts-list">
+    <div>
+      <div v-if="ready" class="posts-list">
         <ListItem
           v-for="postItem in posts"
           :key="postItem.id"
           :postItem="postItem"
           :onClickPost="clickOnPost"
         />
-      </v-row>
-    </v-container>
+      </div>
+    </div>
   </div>
 </template>
 

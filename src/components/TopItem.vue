@@ -11,19 +11,19 @@
     >
       <div class="item-content fluid fill-height">
         <div class="text-caption text-uppercase white--text text-center">{{ postItem.typeText }}</div>
-        <v-card-title class="d-flex justify-center mb-16">
+        <div class="d-flex justify-center mb-16">
           <h4 class="text-h5 text-md-h4 white--text text-capitalize">{{ postItem.title }}</h4>
-        </v-card-title>
+        </div>
 
         <!-- Button -->
-        <v-btn
+        <button
           tile
           outlined
           color="white"
           class="more-btn"
         >
           Read more
-        </v-btn>
+        </button>
       </div>
     </v-img>
   </div>
