@@ -6,24 +6,24 @@
     <div class="posts-list-item">
       <v-img
         height="250"
-        class="mb-6"
+        class=""
         :src="postItem.img"
         :srcset="`${postItem.img_2x} 2x, ${postItem.img_3x} 3x, ${postItem.img_4x} 4x`"
       ></v-img>
-      <div class="text-caption text-uppercase">{{ postItem.typeText }}</div>
-      <div class="d-flex justify-center">
-        <h4 class="text-h5 text-md-h4 text-capitalize">{{ postItem.title }}</h4> 
+      <div class="">{{ postItem.typeText }}</div>
+      <div class="">
+        <h4 class="">{{ postItem.title }}</h4> 
       </div>
 
-      <div class="d-flex justify-center">
+      <div class="">
         <div>
           <div class="item-line" />
         </div>
       </div>
       
-      <div class="text-body-2 text-xl-body-1">
-        <p class="mb-3">{{ postItem.description_short }}</p>
-        <p class="font-weight-bold">Read more</p>
+      <div class="">
+        <p class="">{{ postItem.description_short }}</p>
+        <p class="">Read more</p>
       </div>
     
     </div>

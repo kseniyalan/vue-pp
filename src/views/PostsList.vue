@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="ready" class="top-container">
-      <div v-if="screenWidth > 1599" class="d-flex mb-16">
+      <div v-if="screenWidth > 1599" class="">
         <TopItem
           v-for="postItem in topPosts"
           :key="postItem.id"
