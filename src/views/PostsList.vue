@@ -70,19 +70,42 @@ export default {
   display: flex;
   padding: 0;
   max-width: 100%;
+  padding-bottom: 72px;
 }
 
 .posts-wrap{
-  padding-top: 90px;
-  
   .posts-list{
     display: flex;
     flex-wrap: wrap;
-    width: 1120px;
     height: auto;
     margin: 0 auto;
   }
 }
+
+@media (min-width: 320px) {
+  .posts-wrap{
+    .posts-list{
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 986px) {
+  .posts-wrap{
+    .posts-list{
+      width: 800px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .posts-wrap{
+    .posts-list{
+      width: 1120px;
+    }
+  }
+}
+
 
 
 </style>

@@ -44,13 +44,8 @@ $gray: rgba(0,0,0,0.5);
 
 .list-item{
   width: calc(33% - 32px);
-  margin-left: 32px;
-  margin-bottom: 32px;
+  margin: 16px;
   cursor: pointer;
-
-  &:nth-child(3n-2) {
-    margin-left: 0;
-  }
 
   &:hover{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
@@ -102,6 +97,24 @@ $gray: rgba(0,0,0,0.5);
       font-weight: bold;
       padding-bottom: 20px;
     }
+  }
+}
+
+@media (min-width: 320px) {
+  .list-item{
+    width: calc(100% - 32px);
+  }
+}
+
+@media (min-width: 600px) {
+  .list-item{
+    width: calc(50% - 32px);
+  }
+}
+
+@media (min-width: 986px) {
+  .list-item{
+    width: calc(33% - 32px);
   }
 }
 
