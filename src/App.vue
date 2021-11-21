@@ -2,6 +2,7 @@
   <v-app :class="{ isHomePage: isHomePage }">
     <v-app-bar
       app
+      height="100px"
       color="white"
       elevate-on-scroll
     >
@@ -43,14 +44,10 @@ export default {
   color: #2c3e50;
 }
 
-.isHomePage{
-  //background: url('./assets/images/oranges.jpg') center center no-repeat !important;
-  //background-size: contain;
-}
-
 #nav {
   padding: 10px 292px 10px 10px;
   a {
+    font-size: 12px;
     font-weight: 400;
     color: #2c3e50;
     text-decoration: none;
@@ -62,7 +59,16 @@ export default {
     }
 
     &.router-link-exact-active {
-      color: #FF8F00;
+      position: relative;
+      padding-right: 24px;
+
+      &::after{
+        content: ''; 
+        position: absolute;
+        right: 6px; bottom: -1px;
+        border: 6px solid transparent;
+        border-top: 6px solid #000;
+      }
     }
   }
 

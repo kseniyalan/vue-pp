@@ -10,8 +10,8 @@
       :srcset="`${postItem.img_top_2x} 2x, ${postItem.img_top_3x} 3x,`"
     >
       <div class="item-content">
-        <div class="">{{ postItem.typeText }}</div>
-        <div class="">{{ postItem.title }}</div>
+        <div class="item-type">{{ postItem.typeText }}</div>
+        <div class="item-title">{{ postItem.title }}</div>
 
         <!-- Button -->
         <button
@@ -59,13 +59,28 @@ export default {
     position: relative;
     width: 100%;
     height: 100%;
+    color: #fff;
     padding: 320px 55px 55px 55px;
+
+    .item-type{
+      font-size: 10px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .item-title{
+      font-size: 24px;
+      font-weight: 500;
+    }
 
     .more-btn{
       position: absolute;
       left: calc(50% - 60px);
       bottom: 55px;
       width: 120px;
+      height: 40px;
+      font-size: 10px;
+      border: 1px solid #fff;
     }
   }
 }
