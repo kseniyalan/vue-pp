@@ -3,12 +3,12 @@
     class="top-item"
     @click="onClickPost(postItem.id)"
   > 
-    <v-img
-      height="562"
-      class=""
+    <img
+      class="top-img"
+      :alt="postItem.title"
       :src="postItem.img_top"
       :srcset="`${postItem.img_top_2x} 2x, ${postItem.img_top_3x} 3x,`"
-    >
+    />
       <div class="item-content">
         <div class="item-type">{{ postItem.typeText }}</div>
         <div class="item-title">{{ postItem.title }}</div>
@@ -23,7 +23,6 @@
           Read more
         </button>
       </div>
-    </v-img>
   </div>
 </template>
 
@@ -53,6 +52,14 @@ export default {
   &:hover{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
     transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 562px;
   }
 
   .item-content{

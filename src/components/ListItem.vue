@@ -3,12 +3,12 @@
     class="list-item"
     @click="onClickPost(postItem.id)"
   >
-    <v-img
-      height="250"
+    <img
+      :alt="postItem.title"
       class="item-img"
       :src="postItem.img"
       :srcset="`${postItem.img_2x} 2x, ${postItem.img_3x} 3x, ${postItem.img_4x} 4x`"
-    ></v-img>
+    />
     <div class="item-type">{{ postItem.typeText }}</div>
     <div class="item-title">{{ postItem.title }}</div>
 
@@ -53,6 +53,7 @@ $gray: rgba(0,0,0,0.5);
   }
 
   .item-img{
+    height: 250px;
     margin-bottom: 27px;
   }
 
