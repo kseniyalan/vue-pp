@@ -49,7 +49,7 @@ export default {
 }
 
 #nav {
-  padding: 10px;
+  padding: 10px 292px 10px 10px;
   a {
     font-weight: 400;
     color: #2c3e50;

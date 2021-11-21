@@ -48,6 +48,7 @@ export default {
 
 <style lang="scss">
 .list-item{
+  width: 33.333333%;
   cursor: pointer;
 
   &:hover{
@@ -56,5 +57,9 @@ export default {
       transition: box-shadow 0.3s ease-in-out;
     }
   }
+}
+
+.list-item + .list-item{
+  padding-left: 32px;
 }
 </style>

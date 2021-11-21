@@ -1,18 +1,16 @@
 <template>
   <div>
-    <div v-if="ready" class="top-container">
-      <div v-if="screenWidth > 1599" class="">
-        <TopItem
-          v-for="postItem in topPosts"
-          :key="postItem.id"
-          :postItem="postItem"
-          :onClickPost="clickOnPost"
-        />
-      </div>
+    <div v-if="ready && (screenWidth > 1599)" class="top-container">
+      <TopItem
+        v-for="postItem in topPosts"
+        :key="postItem.id"
+        :postItem="postItem"
+        :onClickPost="clickOnPost"
+      />
     </div>
 
     <!-- Posts list -->
-    <div>
+    <div class="posts-wrap">
       <div v-if="ready" class="posts-list">
         <ListItem
           v-for="postItem in posts"
@@ -69,7 +67,23 @@ export default {
 
 <style lang="scss">
 .top-container{
+  display: flex;
   padding: 0;
   max-width: 100%;
 }
+
+.posts-wrap{
+  padding-top: 97px;
+  
+
+  .posts-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+
 </style>
