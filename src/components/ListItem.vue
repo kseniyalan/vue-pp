@@ -5,24 +5,20 @@
   >
     <v-img
       height="250"
-      class=""
+      class="item-img"
       :src="postItem.img"
       :srcset="`${postItem.img_2x} 2x, ${postItem.img_3x} 3x, ${postItem.img_4x} 4x`"
     ></v-img>
-    <div class="">{{ postItem.typeText }}</div>
-    <div class="">
-      <h4 class="">{{ postItem.title }}</h4> 
-    </div>
+    <div class="item-type">{{ postItem.typeText }}</div>
+    <div class="item-title">{{ postItem.title }}</div>
 
-    <div class="">
-      <div>
-        <div class="item-line" />
-      </div>
+    <div class="item-line-wrap">
+      <div class="item-line" />
     </div>
     
-    <div class="">
-      <p class="">{{ postItem.description_short }}</p>
-      <p class="">Read more</p>
+    <div class="item-content">
+      <p class="item-text">{{ postItem.description_short }}</p>
+      <p class="item-more">Read more</p>
     </div>
   </div>
 </template>
@@ -44,12 +40,13 @@ export default {
 </script>
 
 <style lang="scss">
+$gray: rgba(0,0,0,0.5);
+
 .list-item{
   width: calc(33% - 32px);
   margin-left: 32px;
   margin-bottom: 32px;
   cursor: pointer;
-  background-color: yellow;
 
   &:nth-child(3n-2) {
     margin-left: 0;
@@ -58,6 +55,52 @@ export default {
   &:hover{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
     transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .item-img{
+    margin-bottom: 32px;
+  }
+
+  .item-type{
+    font-size: 12px;
+    color: $gray;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .item-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 28px;
+  }
+
+  .item-line-wrap{
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+
+    .item-line{
+      width: 100px;
+      height: 2px;
+      background-color: $gray;
+    }
+  }
+
+  .item-content{
+    color: $gray;
+
+    .item-text{
+      font-size: 12px;
+    }
+
+    .item-more{
+      font-size: 10px;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
   }
 }
 

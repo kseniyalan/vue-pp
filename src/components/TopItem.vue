@@ -11,9 +11,7 @@
     >
       <div class="item-content">
         <div class="">{{ postItem.typeText }}</div>
-        <div class="">
-          <h4 class="">{{ postItem.title }}</h4>
-        </div>
+        <div class="">{{ postItem.title }}</div>
 
         <!-- Button -->
         <button
