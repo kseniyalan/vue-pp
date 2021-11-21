@@ -58,21 +58,22 @@ $gray: rgba(0,0,0,0.5);
   }
 
   .item-img{
-    margin-bottom: 32px;
+    margin-bottom: 27px;
   }
 
   .item-type{
-    font-size: 12px;
+    font-size: 14px;
     color: $gray;
     text-transform: uppercase;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .item-title{
     font-size: 24px;
     font-weight: 500;
     color: #000;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
   }
 
   .item-line-wrap{
@@ -93,11 +94,11 @@ $gray: rgba(0,0,0,0.5);
     color: $gray;
 
     .item-text{
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .item-more{
-      font-size: 10px;
+      font-size: 12px;
       font-weight: bold;
       padding-bottom: 20px;
     }

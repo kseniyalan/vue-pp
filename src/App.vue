@@ -2,13 +2,11 @@
   <v-app :class="{ isHomePage: isHomePage }">
     <v-app-bar
       app
-      height="100px"
+      height="98px"
       color="white"
       elevate-on-scroll
     >
-      <v-app-bar-title class="d-none d-sm-flex">
-        <h3 class="text-h4 amber--text text--darken-3">Just Food</h3>
-      </v-app-bar-title>
+      <div class="header-logo"></div>
       <v-spacer></v-spacer>
       <div id="nav">
         <router-link to="/">Home</router-link>
@@ -44,10 +42,16 @@ export default {
   color: #2c3e50;
 }
 
+.header-logo{
+  width: 150px;
+  height: 100%;
+  background: transparent url('./assets/logo.png') center center no-repeat;
+}
+
 #nav {
-  padding: 10px 292px 10px 10px;
+  padding: 10px 279px 10px 10px;
   a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #2c3e50;
     text-decoration: none;

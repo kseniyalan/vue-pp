@@ -1,7 +1,7 @@
 { "posts": [
   {
     "id": 0,
-    "title": "My recipe 1",
+    "title": "Organize your life with 10 simple rules",
     "description_short": "The best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "type": 1,
     "img_top": "https://kseniyalan.github.io/vue-blog/pizza/pizza-876.jpg",

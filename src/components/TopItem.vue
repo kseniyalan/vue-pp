@@ -4,7 +4,7 @@
     @click="onClickPost(postItem.id)"
   > 
     <v-img
-      height="564"
+      height="562"
       class=""
       :src="postItem.img_top"
       :srcset="`${postItem.img_top_2x} 2x, ${postItem.img_top_3x} 3x,`"
@@ -47,7 +47,7 @@ export default {
 .top-item{
   position: relative;
   width: calc((100% - 30px)/4);
-  height: 564px;
+  height: 562px;
   cursor: pointer;
 
   &:hover{
@@ -60,23 +60,26 @@ export default {
     width: 100%;
     height: 100%;
     color: #fff;
-    padding: 320px 55px 55px 55px;
+    padding: 330px 55px 55px 55px;
 
     .item-type{
-      font-size: 10px;
+      font-size: 12px;
+      line-height: 13px;
       text-transform: uppercase;
-      margin-bottom: 22px;
+      margin-bottom: 17px;
     }
 
     .item-title{
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 500;
+      text-transform: capitalize;
+      letter-spacing: 0.35;
     }
 
     .more-btn{
       position: absolute;
       left: calc(50% - 60px);
-      bottom: 55px;
+      bottom: 61px;
       width: 120px;
       height: 40px;
       font-size: 10px;

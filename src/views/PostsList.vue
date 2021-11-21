@@ -73,12 +73,12 @@ export default {
 }
 
 .posts-wrap{
-  padding-top: 97px;
+  padding-top: 90px;
   
   .posts-list{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1120px;
+    width: 1120px;
     height: auto;
     margin: 0 auto;
   }
