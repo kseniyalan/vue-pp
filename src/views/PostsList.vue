@@ -75,7 +75,6 @@ export default {
 .posts-wrap{
   padding-top: 97px;
   
-
   .posts-list{
     display: flex;
     flex-wrap: wrap;
