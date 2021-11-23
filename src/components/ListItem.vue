@@ -46,6 +46,7 @@ $gray: rgba(0,0,0,0.5);
   width: calc(33% - 32px);
   margin: 16px;
   cursor: pointer;
+  overflow-x: hidden;
 
   &:hover{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
@@ -57,6 +58,10 @@ $gray: rgba(0,0,0,0.5);
     margin-bottom: 27px;
   }
 
+  .item-type, .item-title, .item-content{
+    padding: 0 5px;
+  }
+  
   .item-type{
     font-size: 14px;
     color: $gray;
