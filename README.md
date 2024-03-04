@@ -1,6 +1,6 @@
 # vuetify-app
 
-A test task project with Vue.js.
+The same project as [Vue-blog](https://github.com/kseniyalan/vue-blog), but made using Pixel Perfect technology. 
 
 See [Online Demo](https://kseniyalan.github.io/vue-pp/) here.
 
